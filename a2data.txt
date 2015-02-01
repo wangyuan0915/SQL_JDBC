@@ -1,0 +1,258 @@
+insert into country values(001,'Canada', 8510700, 31147000);
+insert into country values(002,'Brazil', 776739, 170115000);
+insert into country values(003,'United States', 8510700, 278357000);
+insert into country values(004,'Russian Federation', 276608, 146934000);
+insert into country values(005,'South Africa', 11836, 627600);
+insert into country values(006,'Japan', 3787042, 126714000);
+insert into country values(007,'South Korea', 320749,46844000);
+insert into country values(009, 'Australia', 351182, 103000);
+insert into country values(010,'Spain',553233,39441700);
+insert into country values(011,'North Korea', 5332, 24039000);
+insert into country values(012,'Switzerland', 1026, 100800);
+insert into country values(013,'Turkey',210721,6659100);
+insert into country values(014,'New Zealand',54669,3862000);
+insert into country values(015,'Singapore',86503,3567000);
+insert into country values(016,'Finland',121910, 5171300);
+insert into country values(017,'Germany',2133367,82164700);
+insert into country values(018,'Mexico',414972,98881000);
+insert into country values(019,'Italy',1161755,57680000);
+insert into country values(020,'Iraq',11500,23115000);
+
+
+insert into language values(006,0001,'Chinese',99.1);
+insert into language values(006,0002,'Japanese',99.1);
+insert into language values(006,0003,'English',0.1);
+insert into language values(006,0004,'Ainu',0);
+insert into language values(006,0005,'Korean', 0.5);
+insert into language values(006,0006,'Philippene Language', 0.1);
+insert into language values(020,0007,'Arabic',77.2);
+insert into language values(020,0008, 'Kurdish', 22.8);
+insert into language values(019,0009,'Italian',94.1);
+insert into language values(019,0010,'Sardinian',2.7);
+insert into language values(018,0011,'Spanish',92.1);
+insert into language values(017,0012,'German',91.3);
+insert into language values(017,0013,'Turkish',2.6);
+insert into language values(017,0009,'Italian',0.7);
+insert into language values(017,0014,'Greek',0.4);
+insert into language values(016,0015,'Finnish',92.7);
+insert into language values(016,0016,'Swedish',5.7);
+insert into language values(016,0017,'Russian',0.4);
+insert into language values(015,0001,'Chinese',77.1);
+insert into language values(014,0003,'English',87);
+insert into language values(014,0018,'Maori',4.3);
+insert into language values(013,0013,'Turkish',87.6);
+insert into language values(013,0008, 'Kurdish',10.6);
+insert into language values(013,0007,'Arabic',1.4);
+insert into language values(012,0012,'German',63.6);
+insert into language values(012,0019,'French',19.2);
+insert into language values(012,0009,'Italian',7.7);
+insert into language values(011,0005,'Korean', 99.9);
+insert into language values(011,0001,'Chinese',0.1);
+insert into language values(010,0011,'Spanish',74.4);
+insert into language values(009,0003,'English',81.2);
+insert into language values(009,0009,'Italian',2.2);
+insert into language values(009,0014,'Greek',1.6);
+insert into language values(009,0007,'Arabic',1);
+insert into language values(009,0012,'German',0.6);
+insert into language values(007,0005,'Korean', 99.9);
+insert into language values(007,0001,'Chinese',0.1);
+insert into language values(005,0020,'Zulu',22.7);
+insert into language values(005,0003,'English',8.5);
+insert into language values(004,0017,'Russian',86.6);
+insert into language values(003,0003,'English',86.2);
+insert into language values(003,0011,'Spanish',7.5);
+insert into language values(003,0019,'French',0.7);
+insert into language values(003,0012,'German',0.7);
+insert into language values(003,0009,'Italian',0.6);
+insert into language values(003,0001,'Chinese',0.6);
+insert into language values(003,0005,'Korean', 0.3);
+insert into language values(003,0002,'Japanese',0.2);
+insert into language values(003,0021,'Portuguese',0.2);
+insert into language values(002,0021,'Portuguese',97.5);
+insert into language values(002,0012,'German',0.5);
+insert into language values(002,0009,'Italian',0.4);
+insert into language values(002,0002,'Japanese',0.4);
+insert into language values(001,0003,'English',60.4);
+insert into language values(001,0019,'French',23.4);
+insert into language values(001,0001,'Chinese',2.5);
+insert into language values(001,0009,'Italian',1.7);
+insert into language values(001,0011,'Spanish',0.7);
+insert into language values(001,0021,'Portuguese',0.7);
+
+
+
+insert into religion values(001,1000,'Buddhism',10.0);
+insert into religion values(003,1000,'Buddhism',0.2);
+insert into religion values(006,1000,'Buddhism',80.0);
+insert into religion values(007,1000,'Buddhism',65.0);
+insert into religion values(015,1000,'Buddhism',25);
+
+insert into religion values(001,1001,'Christ',70.0);
+insert into religion values(002,1001,'Christ',30.0);
+
+
+
+
+
+
+
+insert into neighbour values(001,003,9999);
+insert into neighbour values(003,001,9999);
+insert into neighbour values(003,018,100);
+insert into neighbour values(018,003,100);
+insert into neighbour values(004,006,10);
+insert into neighbour values(006,004,10);
+insert into neighbour values(004,011,20);
+insert into neighbour values(011,004,20);
+insert into neighbour values(007,011,38);
+insert into neighbour values(011,007,38);
+insert into neighbour values(009,014,101);
+insert into neighbour values(014,009,101);
+insert into neighbour values(012,017,99);
+insert into neighbour values(017,012,99);
+insert into neighbour values(012,019,98);
+insert into neighbour values(019,012,98);
+insert into neighbour values(010,016,1);
+insert into neighbour values(016,010,1);
+
+insert into hdi values(001,2009,0.1);
+insert into hdi values(001,2010,0.11);
+insert into hdi values(001,2011,0.11);
+insert into hdi values(001,2012,0.11);
+insert into hdi values(001,2013,0.11);
+
+insert into hdi values(002,2009,0.21);
+insert into hdi values(002,2010,0.22);
+insert into hdi values(002,2011,0.23);
+insert into hdi values(002,2012,0.24);
+insert into hdi values(002,2013,0.25);
+
+insert into hdi values(003,2009,0.31);
+insert into hdi values(003,2010,0.30);
+insert into hdi values(003,2011,0.36);
+insert into hdi values(003,2012,0.37);
+insert into hdi values(003,2013,0.38);
+
+insert into hdi values(004,2009,0.4);
+insert into hdi values(004,2010,0.4);
+insert into hdi values(004,2011,0.4);
+insert into hdi values(004,2012,0.4);
+insert into hdi values(004,2013,0.41);
+
+insert into hdi values(005,2009,0.5);
+insert into hdi values(005,2010,0.51);
+insert into hdi values(005,2011,0.51);
+insert into hdi values(005,2012,0.53);
+insert into hdi values(005,2013,0.54);
+
+insert into hdi values(006,2009,0.6);
+insert into hdi values(006,2010,0.61);
+insert into hdi values(006,2011,0.62);
+insert into hdi values(006,2012,0.615);
+insert into hdi values(006,2013,0.63);
+
+insert into hdi values(007,2009,0.7);
+insert into hdi values(007,2010,0.71);
+insert into hdi values(007,2011,0.72);
+insert into hdi values(007,2012,0.73);
+insert into hdi values(007,2013,0.725);
+
+insert into hdi values(009,2009,0.91);
+insert into hdi values(009,2010,0.92);
+insert into hdi values(009,2011,0.93);
+insert into hdi values(009,2012,0.94);
+insert into hdi values(009,2013,0.95);
+
+insert into hdi values(010,2009,0.911);
+insert into hdi values(010,2010,0.912);
+insert into hdi values(010,2011,0.913);
+insert into hdi values(010,2012,0.914);
+insert into hdi values(010,2013,0.915);
+
+insert into hdi values(011,2009,0.9111);
+insert into hdi values(011,2010,0.9112);
+insert into hdi values(011,2011,0.9113);
+insert into hdi values(011,2012,0.9114);
+insert into hdi values(011,2013,0.9115);
+
+insert into hdi values(012,2009,0.9129);
+insert into hdi values(012,2010,0.9128);
+insert into hdi values(012,2011,0.9127);
+insert into hdi values(012,2012,0.9126);
+insert into hdi values(012,2013,0.9125);
+
+insert into hdi values(013,2009,0.9135);
+insert into hdi values(013,2010,0.9134);
+insert into hdi values(013,2011,0.9132);
+insert into hdi values(013,2012,0.9134);
+insert into hdi values(013,2013,0.9131);
+
+insert into hdi values(014,2009,0.9141);
+insert into hdi values(014,2010,0.9142);
+insert into hdi values(014,2011,0.9143);
+insert into hdi values(014,2012,0.9144);
+insert into hdi values(014,2013,0.9145);
+
+insert into hdi values(015,2009,0.9152);
+insert into hdi values(015,2010,0.9153);
+insert into hdi values(015,2011,0.9154);
+insert into hdi values(015,2012,0.9155);
+insert into hdi values(015,2013,0.9156);
+
+insert into hdi values(016,2009,0.9163);
+insert into hdi values(016,2010,0.9162);
+insert into hdi values(016,2011,0.9161);
+insert into hdi values(016,2012,0.9160);
+insert into hdi values(016,2013,0.9161);
+
+insert into hdi values(017,2009,0.9171);
+insert into hdi values(017,2010,0.9172);
+insert into hdi values(017,2011,0.9173);
+insert into hdi values(017,2012,0.9174);
+insert into hdi values(017,2013,0.9175);
+
+insert into hdi values(018,2009,0.9184);
+insert into hdi values(018,2010,0.9185);
+insert into hdi values(018,2011,0.9186);
+insert into hdi values(018,2012,0.9187);
+insert into hdi values(018,2013,0.91875);
+
+insert into hdi values(020,2009,0.924);
+insert into hdi values(020,2010,0.924);
+insert into hdi values(020,2011,0.924);
+insert into hdi values(020,2012,0.925);
+insert into hdi values(020,2013,0.925);
+
+insert into hdi values(001,2008,100);
+insert into hdi values(002,2007,200);
+insert into hdi values(003,2015,300);
+insert into hdi values(019,2017,500);
+insert into hdi values(020,1999,600);
+
+
+
+
+
+insert into ocean values(101,'Pricific Ocean', 2048);
+insert into ocean values(102,'Atlantic Ocean', 1024);
+insert into ocean values(103,'Indian Ocean',512);
+insert into ocean values(104,'Arctic Ocean',256);
+
+
+insert into oceanAccess values(001, 101);
+insert into oceanAccess values(001, 102);
+insert into oceanAccess values(002, 102);
+insert into oceanAccess values(003, 101);
+insert into oceanAccess values(003, 102);
+insert into oceanAccess values(004, 101);
+insert into oceanAccess values(005, 102);
+insert into oceanAccess values(005, 103);
+insert into oceanAccess values(006, 101);
+insert into oceanAccess values(007, 101);
+insert into oceanAccess values(009, 101);
+insert into oceanAccess values(009, 103);
+insert into oceanAccess values(011, 101);
+insert into oceanAccess values(014, 101);
+insert into oceanAccess values(014, 103);
+insert into oceanAccess values(016, 104);
+insert into oceanAccess values(018, 101);
